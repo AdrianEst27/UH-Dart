@@ -17,7 +17,7 @@ bool esLaborable(Dias dia, int hora) {
 
 void main() {
   print("\n > Es laborable? ${esLaborable(Dias.miercoles, 10)}");
-  print("\n > Es laborable? ${esLaborable(Dias.sabado, 12)}"); 
-  print("\n > Es laborable? ${esLaborable(Dias.lunes, 20)}");
-  print("\n > Es laborable? ${esLaborable(Dias.viernes, 15)}");
+  print(" > Es laborable? ${esLaborable(Dias.sabado, 12)}"); 
+  print(" > Es laborable? ${esLaborable(Dias.lunes, 20)}");
+  print(" > Es laborable? ${esLaborable(Dias.viernes, 15)}");
 }
